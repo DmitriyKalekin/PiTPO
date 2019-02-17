@@ -6,13 +6,13 @@ MSIL
 Common Type System 
 int   --- Int64
 int   --- Int32
-Garbage Collector -- область видимости
+Garbage Collector -- РѕР±Р»Р°СЃС‚СЊ РІРёРґРёРјРѕСЃС‚Рё
 Assembly - GAC
 registry.dll
 
-ТамТэк
+РўР°РјРўСЌРє
 Luxsoft
-Райф
+Р Р°Р№С„
 
 ML/AI -- MatLAB/Octave, R, Python
 C# / Java 
@@ -37,8 +37,8 @@ SaS - REST API
 XML
 <?xml schema="">
 <books>
-	<book id="1" title="Азбука" />
-	<book id="2" title="Букварь" />
+	<book id="1" title="РђР·Р±СѓРєР°" />
+	<book id="2" title="Р‘СѓРєРІР°СЂСЊ" />
 </books>
 
 JSON
@@ -46,8 +46,8 @@ JSON
 	"status": 200,
 	"error": {},
 	"data": [
-	    {"id": 1, "title": "Азбука"},
-	    {"id": 2, "title": "Букварь"}  	
+	    {"id": 1, "title": "РђР·Р±СѓРєР°"},
+	    {"id": 2, "title": "Р‘СѓРєРІР°СЂСЊ"}  	
 	]	
 }
 
@@ -64,9 +64,9 @@ MySQL / PostgeSQL / MariaDB / MongoDB
 MSSQL / Oracle
 
 
-Паттерны проектирования
-Монолит
-Микросервисы
+РџР°С‚С‚РµСЂРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ
+РњРѕРЅРѕР»РёС‚
+РњРёРєСЂРѕСЃРµСЂРІРёСЃС‹
 
 public double cost()
 {
