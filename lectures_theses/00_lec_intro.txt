@@ -1,0 +1,91 @@
+C# 
+.NET / . NET Framework / .NET Core / Mono
+-- WPF (win presentation foundation)
+
+MSIL
+Common Type System 
+int   --- Int64
+int   --- Int32
+Garbage Collector -- область видимости
+Assembly - GAC
+registry.dll
+
+ТамТэк
+Luxsoft
+Райф
+
+ML/AI -- MatLAB/Octave, R, Python
+C# / Java 
+
+WEB: 
+-- LAMP PHP
+-- Flask/Django Python
+-- ASP.NET
+
+Front:
+-- javascript
+Back:
+-- Node.js
+
+MicroServices: GO 
+
+Docker
+Kubernetes
+
+
+SaS - REST API
+XML
+<?xml schema="">
+<books>
+	<book id="1" title="Азбука" />
+	<book id="2" title="Букварь" />
+</books>
+
+JSON
+{
+	"status": 200,
+	"error": {},
+	"data": [
+	    {"id": 1, "title": "Азбука"},
+	    {"id": 2, "title": "Букварь"}  	
+	]	
+}
+
+swagger.io
+postman
+apiary
+
+
+HTTPs -- GET- POST - PUT - DELETE
+GET /currency/usd
+POST /curency/usd/sell
+
+MySQL / PostgeSQL / MariaDB / MongoDB
+MSSQL / Oracle
+
+
+Паттерны проектирования
+Монолит
+Микросервисы
+
+public double cost()
+{
+	return this.s.cost();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
