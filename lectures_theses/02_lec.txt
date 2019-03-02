@@ -1,0 +1,51 @@
+Boxing
+-- все типы object
+-- -- можно запаковать в object и 
+передать в универсальные методы (object)a
+-- Похоже (преобразование к базовому классу)
+-- -- (SpaceObject)p      Planet p
+-- -- if (o is Planet) проверка на тип
+--- распаковка o SpaceObject 
+--- ---  (Planet)o
+	    int i=5;
+            object o = (object)i;
+            int j = (int)o;
+
+Списками
+using System.Collections.Generic;
+-- Создание List<Planet> model = new List<Planet>();
+-- foreach (Planet p  in model)
+   {
+
+   }
+-- индексация 
+   model[3]
+   
+   for (int i=0; i < model.Count; i++)
+   {
+      Planet p = model[i];
+
+   }
+-- model.Add(new Planet());
+
+Ссылочные и значимые типы
+
+Значимые
+int a = 5;
+bool, int, float, double, struct ...
+
+-- различие между структурами и классами
+Deep Copy | Shallow Copy
+
+
+
+
+
+
+
+
+
+
+
+
+
