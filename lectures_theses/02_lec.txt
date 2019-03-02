@@ -1,3 +1,5 @@
+https://github.com/KalekinDmitry/PiTPO
+
 Boxing
 -- все типы object
 -- -- можно запаковать в object и 
@@ -35,12 +37,20 @@ int a = 5;
 bool, int, float, double, struct ...
 
 -- различие между структурами и классами
+
 Deep Copy | Shallow Copy
 
 
+graph.index.edge[3].vertex.edge[7].vertex.edge[3].vertex.edge[7].vertex
+graph.index
 
 
+Сеть - REST API - шахматы
+https://metanit.com/sharp/net/1.1.php
+Unity
+генетические алгоритмы, нейронки - todo
 
+Google Colab
 
 
 
