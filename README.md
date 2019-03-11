@@ -6,6 +6,10 @@
 
 
 **Курсы по C#**  
+Совсем простенький:  
+https://stepik.org/course/5482/syllabus
+
+
 [https://vk.com/videos288422991?section=album_51]  
 [https://openedu.ru/course/urfu/CSHARP/]  
 
