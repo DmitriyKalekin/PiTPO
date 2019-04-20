@@ -23,6 +23,7 @@ Deadlock - ситуация когда оба потока ждут ресурс
 
 
 **Pool of workers** 
+```
 object[] threads = new object[20]();
 
 while (!threads.Contains(null))
@@ -39,9 +40,9 @@ while (!threads.Contains(null))
       threads[i] = null;
     }
   }
-  
-  
+    
 }
+```
 
 
 **Tasks**   
