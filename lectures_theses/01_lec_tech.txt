@@ -85,13 +85,13 @@ Docker
 -- Docker Swarm
 -- Kubernetess (Azure, AWS, Google.Cloud)
 -- -- minikube, kubectl
-Установка и настройка серверных приложений
+Установка и настройка серверов
 -- Web-сервер Apache, Nginx, IIS
 -- -- конфигурация, виртуальные хосты
 -- -- SSL-сертификаты, mod_rewrite
 -- MySQL сервер / PostgreSQL / Oracle
 -- -- конфигурация 
--- другое ПО: Redis, Memcache, Celery, RabbitMQ
+-- другое ПО: Redis, Memcache, Vault, Celery, RabbitMQ
 CI / CD
 -- Helm, Vexor, Circle CI
 Мониторинг
@@ -116,28 +116,35 @@ VPN
 -- composer, brew или другие пакетные менеджеры
 -- ORM: Doctrine
 -- фреймворки: Laravel, Yii, Simphony, CodeIgniter, Drupal
+-- CMS- разработка, например, OpenCart
 -- MVC
--- шаблонизация Smarty
+-- шаблонизация Smarty <h1>Привет! {{USERNAME}}</h1>
 -- HTML, css, less, sass, bootstrap
 -- gulp.js
 -- js, jQuery, dojo, prototype
 
+3.2 Python 
+-- Flask / Quart | Django
+-- aiohttp, aiomysql, asyncio
 
+3.3 Go + Vue.js
 
-
-
-<h1>Привет! {{USERNAME}}</h1>
-
-
-
-
-3.2 Python Flask / Django
-
-3.3 Node.JS
-
+3.4 Node.JS
 
 4 Web + Mobile
 React/Redux/Angular
+
+XX. REST API
+
+XXX. QA
+-- TDD
+-- BDD (gherkin/cucumber)
+-- UnitTest, PHPUnit, JUnit - модульное тестирование
+-- Функциональное тестирование (selenium)
+-- графическое тестирование (gemeny)
+
+
+
 
 
 
@@ -162,20 +169,20 @@ mysite.com/search/?q=apple
 
 $q = $_GET["q"]; // apple
 
-query = "SELECT * FROM products WHERE name='" + q + "';";
+query = "SELECT * FROM products WHERE name='" + escape(q) + "';";
 query = "SELECT * FROM products WHERE name='apple';";
 
-mysite.com/search/?q=apple%46; DROP DATABASE;--
+mysite.com/search/?q=apple'; DROP DATABASE;--
 
-query = "SELECT * FROM products WHERE name='apple\'; DROP DATABASE;--'; DROP DATABASE; --';";
+query = "SELECT * FROM products WHERE name='apple\'; DROP DATABASE; --';";
 
 mysql_exec(query);
 
 
 XSS
-/?q=" /><script>alert('works!')</script><!--
+/?q=" /><script>alert('works!');</script><!--
 ---------
-[apple]  <input type=text value="" /><script>alert('works!')</script><!--
+[apple]  <input type=text value="" /><script>alert('works!');</script><!--" />
 [ok]
 ---------
 
