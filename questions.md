@@ -8,7 +8,9 @@ Assembly / Namespace  C:\Windows\Assembly
 Значимые типы: целое, вещественное, булево.  
 Ссылочные типы: классы, делегаты.  
 
-Куда отнести: структуры, списки, массивы и строки?  
+Куда отнести: структуры, списки, массивы и строки? 
+
+int Int32
 
 ```
 Convert  
@@ -25,6 +27,8 @@ Planet p = new Planet();
 
 object o = (object)p;
 Planet p2 = (Planet)o; // UnBoxing
+
+instanceof  ==> is
 
 class SpaceObject // x,y, name, Process()
 class Planet : SpaceObject // R, star, 
@@ -44,35 +48,31 @@ public void Render(SpaceObject so)
 
 
 .GetType(???) == “\Lab2\Planets\SpaceObject”
-typeof() == int
+typeof(i) == int
 ```
 
 3. UML. Class Diagram + Основы ООП
 Инкапсуляция – содержать в себе данные и методы, но и защитить  
 Наследование  
 Полиморфизм  
-
 Модификаторы доступа: public+, private-, protected#  
-
 Делегирование, делегация (не путать с делегатом, или можно путать))))  
+Композиция, агрегация
+Реализация инерфейса
+Ассоциация (класс ассоциация)
+Делегирование
 
 4.	Паттерны проектирования  
-
 Типы: Поведенческие, Порождающие, Корпоративных приложений, …  
- 
 Strategy / Bridge  
 Factory / Abstract Factory / Factory Method  
 Singleton –  Config, MySQL_Connector  
 Builder  
 Composite  
-
 Фасад  
 Декоратор  
-
 Front Controller  
 Page Controller  
-
-
 Observer / Subscriber / Listener  
 
 5. Теория вычислимости. Сложность алгоритмов  
@@ -80,6 +80,9 @@ Observer / Subscriber / Listener
 
 O(N) = O(cN)   
 O(N*logN) O(N^k)  
+
+log A B = log c B /  log c A
+
 
 P, NP  
 
@@ -99,28 +102,35 @@ for (int i=0; i<N; i++)
 7.События, обработка событий, делегаты и шаблон Observer/Listener/Наблюдатель   
 
 
-8.Fluent Interface. Основы функционального программирования.   
+8.
+Устар: восходящее и нисходящее программирование
+Процедурное программирование
+Основы функционального программирования.   
+Fluent Interface. 
 LINQ. Лямбда-выражения   
+Когда функция возвращает функцию?
+
 
 9.IEnumerable, IEnumerator, Генератор, yield return, Lazy Loading   
 
 10.MVC, MVP, MVVM  
 
 
-13. Потоки  
-Thead, join. Worker, BackgroundWorker  
+13. Потоки и Процессы 
+Thread, join. Worker, BackgroundWorker  
 
 14. Сериализация и маршалинг  
 Binary, XML  
  
+15. Файлы Stream
+StreamReader / Writer / ... binary... xml
+Как проверить, что файл существует?
+Обойти рекурсивно каталог и отобразить файлы и папки (и содержимое внутренних каталогов)
+Записать в файл, прочитать
 
-Устар: восходящее и нисходящее программирование
-
+---------------------------------------------
 Подключение DLL
-
-Копирование объектов. Поверхностное (shallow) и глубокое (deep) копирование
-
-
+Копирование/клонирование объектов. Поверхностное (shallow) и глубокое (deep) копирование
 
 ** проектирование **  
 SOLID  
@@ -128,6 +138,7 @@ DRY
 
 ** тестирование **  
 TDD
+Mock, Stub
 BDD (cucumber, gherkins)
 DDD
 
@@ -144,7 +155,7 @@ DDD
 5. обход графа вглубь
 6. определение существования цикла в графе
 7. реализовать алгоритм сортировки (любой)
-8. 
+
 
 
 
